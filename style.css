@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(136, 15, 15);
+    margin: auto;
+}
+#heady{
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 77, 143);
+    text-align: center;
+    width: 50%;
+}
+#inst{
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 77, 143);
+    text-align: center;
+    width: 50%;
+    
+}
+p{
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+button{
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 77, 143);
+    border-radius: 20%;
+}
