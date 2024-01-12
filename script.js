@@ -1,16 +1,10 @@
-const dice = 1;
-const sumOfRoll = 0;
+var dice = 1;
+var sumOfRoll = 0;
 const roll1 = document.getElementById("roll1");
+roll1.addEventListener("click", rollDice())
 function rollDice(){
-    for(let i = 0; i++; i < dice)
-    {
-        sumOfRoll += 2;//(Math.random()*6 + 1);
-    }
+    sumOfRoll=Math.trunc((Math.random()*6 + 1));
     console.log("sumOfRoll = " + sumOfRoll);
 };
 // roll1.addEventListener("click", rollDice());
-function display()
-{
-    console.log(sumOfRoll);
-}
-display();
+rollDice();

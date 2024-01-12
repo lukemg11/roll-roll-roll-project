@@ -34,3 +34,9 @@ button{
 img{
     margin: auto;
 }
+table, th, tr, td{
+    color: aqua;
+    border: 1px solid;
+    text-align: center;
+    margin: auto;
+}
