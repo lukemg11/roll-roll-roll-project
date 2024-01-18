@@ -1,6 +1,5 @@
 body{
     background-color: rgb(136, 15, 15);
-    margin: auto;
 }
 #heady{
     color: rgb(255, 255, 255);
@@ -29,14 +28,34 @@ button{
     background-color: rgb(27, 77, 143);
     border-radius: 20%;
     text-align: center;
-    margin: auto; 
+    margin-left: 45.5%;
+    height: 75px;
+    width: 150px;
+    text-decoration: wavy;
 }
 img{
     margin: auto;
 }
-table, th, tr, td{
-    color: aqua;
-    border: 1px solid;
+table{
+    size: 100px;
+    color: rgb(54, 34, 138);
+    border: 5px solid;
+    text-align: center;
+    margin: auto;
+}
+th, tr, td{
+    color: rgb(222, 219, 234);
+    border: 3px solid;
+}
+form{
+    margin: auto;
+    align-self: center;
+    text-align: center;
+}
+label{
+    color: blanchedalmond;
+}
+#imgs{
     text-align: center;
     margin: auto;
 }
